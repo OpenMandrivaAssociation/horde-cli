@@ -12,7 +12,7 @@ Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-PreReq:        php-pear
+Requires(pre): php-pear
 Requires:      php-gettext
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
