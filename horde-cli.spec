@@ -5,7 +5,7 @@
 
 Name:          horde-cli
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       Horde CLI API
 License:       LGPL
 Group:         Networking/Mail
@@ -17,7 +17,7 @@ Requires:      php-gettext
 Requires:      php-pear-channel-horde
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 Horde_CLI:: API for basic command-line functionality/checks
