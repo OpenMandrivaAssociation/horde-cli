@@ -52,3 +52,16 @@ fi
 %{xmldir}/%{prj}.xml
 %dir %{peardir}/Horde
 %{peardir}/Horde/CLI.php
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2011.0
++ Revision: 560535
+- Increased release for rebuild
+
+* Sun Feb 21 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 509324
+- replace PreRqu with Requires(pre)
+- import horde-cli
+
+
