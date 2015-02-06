@@ -5,7 +5,7 @@
 
 Name:          horde-cli
 Version:       0.0.2
-Release:       %mkrel 2
+Release:       3
 Summary:       Horde CLI API
 License:       LGPL
 Group:         Networking/Mail
